@@ -4,6 +4,7 @@ export const cores = {
   branca: '#eee',
   preta: '#111',
   cinza: '#333',
+  cinzaClaro: '#a3a3a3',
   verde: '#10ac84'
 }
 
@@ -16,6 +17,10 @@ export const GlobalCss = createGlobalStyle`
     list-style: none;
     text-decoration: none;
     margin: 0 auto;
+  }
+
+  footer * {
+    margin: 0;
   }
 
   body {

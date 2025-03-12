@@ -20,10 +20,7 @@ export const HeaderBar = styled.header`
   div {
     display: flex;
     align-items: center;
-  }
-
-  img {
-    margin-left: -192px;
+    margin-left: 10px;
   }
 `
 
